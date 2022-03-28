@@ -36,6 +36,7 @@
 }
 
 /* Extra-small devices (default) */
+/* Columns-XS */
 .col-xs-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -146,8 +147,8 @@
 }
 
 /* Small devices */
-
 @media all and (min-width: 576px){
+    /* Columns-SM */
     .col-sm-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -258,9 +259,9 @@
     }
 }
 
-
 /* Medium devices */
 @media all and (min-width: 768px){
+    /* Columns-MD */
     .col-md-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -371,9 +372,9 @@
     }
 }
 
-
 /* Large devices */
 @media all and (min-width: 992px){
+    /* Columns-LG */
     .col-lg-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
